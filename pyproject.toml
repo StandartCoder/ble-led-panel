@@ -1,0 +1,16 @@
+[tool.poetry]
+name = "ble-led-panel"
+version = "0.1.0"
+description = "A package for controlling LED panel matrix via BLE"
+authors = ["StandartCoder <standartcoder@gmail.com>"]
+license = "Apache-2.0"
+readme = "README.md"
+homepage = "https://github.com/StandartCoder/ble-led-panel"
+keywords = ["LED", "BLE", "matrix", "panel", "aliexpress", "temu"]
+
+[tool.poetry.dependencies]
+python = "^3.9"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
