@@ -9,7 +9,11 @@ homepage = "https://github.com/StandartCoder/ble-led-panel"
 keywords = ["LED", "BLE", "matrix", "panel", "aliexpress", "temu"]
 
 [tool.poetry.dependencies]
-python = "^3.9"
+python = ">=3.9,<3.13"
+asyncio = "^3.4.3"
+logging = "^0.4.9.6"
+bleak = "^0.22.2"
+colorama = "^0.4.6"
 
 [build-system]
 requires = ["poetry-core"]
