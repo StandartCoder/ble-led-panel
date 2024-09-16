@@ -22,7 +22,6 @@ async def run() -> None:
     
     # Get the device information and characteristics
     await panel.getAndSetCharacteristics()
-    await panel.getDeviceInfo()
 
     # Initialize the LED panel
     LOGGER.info("LED panel initialized successfully")
